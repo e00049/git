@@ -1,2 +1,8 @@
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git remote add origin https://github.com/e00049/git.git    - add your remote repo
+
+git init                    - init your repository
+git add file1 file2         - add file what are thing you wanna to upload to remote repo
+git commit -m "commit msg"  - add commit message 
+git push origin main        - files will be push to your remote repo
