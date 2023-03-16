@@ -1,0 +1,5 @@
+                            *** git branches *** 
+git branch -a                               -  To list out all brances which are in local and remote
+git checkout -b development                 -  To create new brance and switch into development 
+git config -v                               -  To get know configuration
+git push --set-upstream origin development  -  Now we can push into this directory
