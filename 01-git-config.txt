@@ -2,6 +2,7 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"                  - this is for entire system 
 git config --global core.editor "/usr/bin/nano"     
 git remote add origin https://github.com/e00049/git.git    - add your remote repo
+git remote -v           -> list of bookmarked repository names and additionally, the corresponding repository URL.
 
 git init                    - Git Init on your working directory
 git pull origin main        - We could use git pull before push into remote repo
