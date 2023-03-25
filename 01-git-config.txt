@@ -10,3 +10,6 @@ git add file1 file2         - Local to staging Area
 git stage file1 file2       - Local to staging Area
 git commit -m "commit msg"  - Staging area to Local repo
 git push origin main        - Local repo to your remote repo
+
+git config --edit                    - To edit the config files
+git remote set-url origin <SSH_URL>  - To edit https to ssh url 
