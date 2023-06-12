@@ -1,0 +1,9 @@
+
+git branch   -  Active branch - HEAD
+
+git checkout development  - switch to exitsting branch
+
+git checkout -b uat  - change create 
+
+git merge uat  - uat will be merge with main branch
+
