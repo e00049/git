@@ -8,3 +8,9 @@ git checkout -b uat  - change create
 git merge uat  - uat will be merge with main branch
 
 git branch -d uat
+
+git mv old-file-name new-file-name 
+
+git reset file-name   - Remove from staging area to normal area
+
+git reset --soft HEAD^  -  Undo last commit 
