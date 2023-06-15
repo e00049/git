@@ -11,6 +11,11 @@ git branch -d uat
 
 git mv old-file-name new-file-name 
 
+
 git reset file-name   - Remove from staging area to normal area
 
 git reset --soft HEAD^  -  Undo last commit 
+
+git show HEAD~1:file.txt   -  How was the file while commit 1 from top to down 
+
+git diff HEAD~2 file.txt   - difference between current and from 2nd commit
