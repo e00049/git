@@ -11,8 +11,9 @@ git branch -d uat
 
 git mv old-file-name new-file-name 
 
-
-git reset file-name   - Remove from staging area to normal area
+git add file-name              -  from local to staging area 
+git reset file-name            -  from staging area to local
+git restore --staged file-name -  from staging area to local
 
 git reset --soft HEAD^  -  Undo last commit 
 
