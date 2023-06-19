@@ -1,5 +1,5 @@
 
-git log
+git log --oneline --graph --decorate development
 
 git branch   -  Active branch - HEAD
 
