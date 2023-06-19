@@ -1,4 +1,6 @@
 
+git log
+
 git branch   -  Active branch - HEAD
 
 git checkout development  - switch to exitsting branch
