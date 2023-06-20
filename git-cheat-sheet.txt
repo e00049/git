@@ -16,6 +16,7 @@ git mv old-file-name new-file-name
 git add file-name              -  from local to staging area 
 git reset file-name            -  from staging area to local
 git restore --staged file-name -  from staging area to local
+git revert commit-id           - Undo commit and create new commit
 
 git reset --soft HEAD^  -  Undo last commit 
 
