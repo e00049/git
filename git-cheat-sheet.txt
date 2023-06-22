@@ -20,6 +20,7 @@ git revert commit-id           - Undo commit and create new commit
 
 git reset --soft HEAD^  -  Undo last commit 
 
+
 git show HEAD~1:file.txt   -  How was the file while commit 1 from top to down 
 git show HEAD~2:file.txt > stage-002.txt  - what was the content at log2 stage
 
