@@ -29,3 +29,4 @@ sudo apt-get install jenkins -y
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 -----------------------------------------------------------------------
+
