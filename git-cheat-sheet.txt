@@ -28,3 +28,17 @@ git diff HEAD~2 file.txt   - difference between current and from 2nd commit
 
 git restore -s HEAD~1 file.txt  - move to log 01 stage
 
+git help -a     -  we can see all the commands
+git help config - To get man page for the respective command 
+git config —list —show-origin 
+git config —global —unset user.name 
+git config —global —remove-section user
+
+git config user.email -  to view the which user’s configured - directory level 
+git config —unset user.email - To remove the user from the directiory level
+git config user.name - To get user name for directory
+
+
+git config —local user.email e00049@gmail.com
+
+git config —local —remove-section. 
