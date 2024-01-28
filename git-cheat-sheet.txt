@@ -42,3 +42,8 @@ git config user.name - To get user name for directory
 git config —local user.email e00049@gmail.com
 
 git config —local —remove-section. 
+
+git mv old_file_name new_file_name 
+
+git log --grep="fix" -  To start to searching string from commit message
+
