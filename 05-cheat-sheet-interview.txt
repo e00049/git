@@ -1,0 +1,29 @@
+*** Git Begining Level Commmands ***
+
+# 01. git init
+  git init
+
+# 02. git configuration of the working directory
+  git config user.name e00049
+  git config user.email e00049@gmail.com
+
+# 03. remote repo configuration
+  git remote add origin https://github.com/e00049/git.git
+
+# 04. to push the code into remote repo
+  git branch
+  git checkout 
+  git pull origin branch-name - if repo already exists & if remote repo has any changes we want to pull here...
+  git add file1.txt file2.txt   
+  git commit -m "fect: #01. google auth api added"
+  git push origin <branch-name>
+
+# 05. Undo commands
+  git reset        - remove from added stage
+  git reset ^HEAD  - remove from committed stage
+
+
+*** GIT Interminate commands ***
+
+
+
