@@ -1,5 +1,4 @@
+---> advance command in git
 git fetch 
 git pull
 git clone
-
-# this is new line for testing the fetch status in github
