@@ -23,7 +23,15 @@
   git reset ^HEAD  - remove from committed stage
 
 
-*** GIT Interminate commands ***
-
+*** handling the existing project based on ssh keys ***
+cd existing_folder
+git init 
+git config user.name e00049
+git config user.email e00049@gmail.com
+git remote add origin git@gitlba.workspace.com:e00049/django.git
+git checkout -b dev
+git add .
+git commit -m "Initial commit"
+git push --set-upstream origin dev
 
 
