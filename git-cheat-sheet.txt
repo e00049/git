@@ -47,3 +47,108 @@ git mv old_file_name new_file_name
 
 git log --grep="fix" -  To start to searching string from commit message
 
+
+
+GIT Commands:
+
+""" Basic Level commands """
+
+// Push an existing folder 
+#1. To initialize a Git repository
+    git init 
+
+#2. Configuration    
+    git config user.name e00049
+    git config user.email e00049@gmail.com
+
+#3. To add remote repo URL
+    git remote add origin http://34.31.128.202/devops/django.git
+
+#4. Branch to push your code
+    git checkout -b dev
+
+#5. To list of file you want to add
+    git add .
+
+#6. git commit with message
+    git commit -m "fect: #1. initial commit"    
+
+#7. git push your committed branch
+    git push origin dev    
+
+#8. pull the changes from remote repo
+    git pull origin dev
+
+
+// Create a new repository 
+#1. git clone 
+    git clone http://34.31.128.202/devops/django # while clone the repo you'll be authuticate. 
+
+#2. Configuration    
+    git config user.name e00049
+    git config user.email e00049@gmail.com
+
+#3. To list of file you want to add
+    git add .
+
+#4. git commit with message
+    git commit -m "fect: #1. initial commit"    
+
+#5. git push your committed branch
+    git push origin dev    
+
+#6. pull the changes from remote repo
+    git pull origin dev    
+
+#7. To check status 
+    git status 
+
+#8. To check commit histroy 
+    git log
+
+#9. To check present branch 
+    git branch 
+
+#10. To create new branch and chnage 
+    git checkout -b dev
+
+
+
+""" Intermeditate Level commands """
+
+#1. rename the file 
+    git mv old-name new-name 
+
+#2. delete the file
+    git rm file 
+
+#3. Undo the add 
+    git reset
+
+#4. Undo the committed 
+    git reset --soft HEAD~1
+
+#5. Most recent commit message change
+    git commit --amend -m "New commit message"
+
+
+""" Advance Level commands """
+#1. 
+    git fetch 
+
+#2.
+    git merge
+
+#3. 
+    git rebase 
+
+#4. 
+    git show            
+
+#5.
+    git grep work-to-search
+
+#6. 
+    git shortlog
+    
+            
